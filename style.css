@@ -1,0 +1,78 @@
+body {
+    width :1000px;
+    border : 1px black solid;
+    }
+    
+    img {
+        height:250px;
+        width:100%;
+    }
+    p {
+        color:black;
+    }
+    
+    h2 {
+        text-align : center;
+    }
+    .formateur {
+        position:absolute;
+        text-align : center;
+        padding:15px;
+        top : 680px;
+        left :60px;
+        background-color : #68a7af;
+        z-index :1;
+        display : inline-block;
+    }
+    
+    .psy {
+        position:absolute;
+        text-align : center;
+        left :350px;
+        top : ;	
+        background-color : #6387a9;
+        padding : 15px;
+        display : inline-block;
+    }
+    
+    .autre{
+        position:absolute;
+        text-align : center;
+        background-color : #93c0ac;
+        left : 600px;
+        top : 750px;
+        padding : 15px;
+        z-index : 1;
+        display : inline-block;
+        width : 250px;
+    }
+    
+    .comp {
+        border : 1px ;
+        display : flex;
+        width : 1000px;
+        height : 180px;
+        position : absolute;
+        top : 975px;
+        text-align : center;
+        flex : auto;
+        flex-direction : column;
+        flex-wrap : wrap;
+        justify-content : center;
+    }
+    
+    .infos {
+        color : #000000;
+        position : absolute;
+        top : 1155px;
+        width : 1000px;
+        height : 100px;
+        display : flex;
+        justify-content : center;
+        flex-wrap : wrap;
+        flex : auto;
+        flex-direction : column;
+        text-align : center;
+        background-color : #8494b4;
+    }
+        
